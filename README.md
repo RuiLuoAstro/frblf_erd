@@ -12,19 +12,15 @@ Python (2.7.x), Numpy (1.14 at least), Scipy (1.0.0 at least), PyMultiNest (see 
 ## Verify the mock data using PyMultiNest
 
 ``` ./run_simu.sh ``` &emsp;&emsp;&emsp;&emsp;
-**Notes: better implement it in cluster where MPI was installed well**
-**The posterior outputs are saved on ./nest_out/simu/**
+**Notes: better implement it in cluster where MPI was installed well. The posterior outputs are saved on ./nest_out/simu/**
 
 ``` ./draw_sim.sh ``` &emsp;&emsp;&emsp;&emsp;
-**Plot the posterior distribution contours of the mock data**
-**The plots are made on ./plots/simu/**
+**Plot the posterior distribution contours of the mock data, which are made on ./plots/simu/**
 
 ## Measure the quantified FRB LF with sample
 
 ``` ./run_samp.sh ``` &emsp;&emsp;&emsp;&emsp;
-**Notes: better implement it in the cluster where MPI was installed well**
-**The posterior outputs are saved on ./nest_out/samp/**
+**Notes: better implement it in the cluster where MPI was installed well. The posterior outputs are saved on ./nest_out/samp/**
 
 ``` ./draw_samp.sh ``` &emsp;&emsp;&emsp;&emsp;
-**Plot the posterior distribution contours of the real FRB sample**
-**The plots are made on ./plots/samp/**
+**Plot the posterior distribution contours of the real FRB sample, which are saved on ./plots/samp/**
