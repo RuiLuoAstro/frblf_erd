@@ -3,7 +3,7 @@ A Bayesian framework to measure the event rate density of FRB luminosity functio
 
 ## References
 
-If you would like to use this code to study FRB luminosity function, please cite the paper [Luo et al. 2020, MNRAS, 494, 665] (https://ui.adsabs.harvard.edu/abs/2020MNRAS.tmp..667L/abstract) as well as [Luo et al. 2018, MNRAS, 481, 2320](https://ui.adsabs.harvard.edu/abs/2018MNRAS.481.2320L/abstract).
+If you would like to use this code to study FRB luminosity function, please cite the paper [Luo et al. 2020, MNRAS, 494, 665](https://ui.adsabs.harvard.edu/abs/2020MNRAS.tmp..667L/abstract) as well as [Luo et al. 2018, MNRAS, 481, 2320](https://ui.adsabs.harvard.edu/abs/2018MNRAS.481.2320L/abstract).
 
 ## Dependencies
 
