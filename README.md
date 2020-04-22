@@ -1,4 +1,4 @@
-# frblf_er
+# frblf_erd
 A Bayesian framework to measure the event rate density of FRB luminosity function
 
 ## References
