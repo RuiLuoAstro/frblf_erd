@@ -90,7 +90,7 @@ if __name__ == '__main__':
     vLOGW = np.log10(frb_cat['W'])
     vSVY = frb_cat['SURVEY']
     cts = Counter(vSVY)
-    vN = np.array([cts['SMC'], cts['HS'], cts['PALFA'], cts['GBTIM'], cts['UMT1'], cts['CRAFT'], cts['UMT2']])
+    vN = np.array([cts['SMC'], cts['HS'], cts['PALFA'], cts['GBTIM'], cts['UMT1'], cts['CRAFT']])
     vSN0 = svy_info['SN0']
     vTs = svy_info['Tsys']
     vG = svy_info['Gain']
@@ -99,11 +99,11 @@ if __name__ == '__main__':
     vFOV = svy_info['FOV'] 
     vTime = svy_info['TIME']
     vLOGF_2d = [vLOGF[vSVY=='SMC'],vLOGF[vSVY=='HS'],vLOGF[vSVY=='PALFA'],
-                        vLOGF[vSVY=='GBTIM'],vLOGF[vSVY=='UMT1'],vLOGF[vSVY=='CRAFT'], vLOGF[vSVY=='UMT2']]
+                        vLOGF[vSVY=='GBTIM'],vLOGF[vSVY=='UMT1'],vLOGF[vSVY=='CRAFT']]
     vDME_2d = [vDME[vSVY=='SMC'],vDME[vSVY=='HS'],vDME[vSVY=='PALFA'],
-                    vDME[vSVY=='GBTIM'],vDME[vSVY=='UMT1'],vDME[vSVY=='CRAFT'], vDME[vSVY=='UMT2']]   
+                    vDME[vSVY=='GBTIM'],vDME[vSVY=='UMT1'],vDME[vSVY=='CRAFT']]   
     vLOGW_2d = [vLOGW[vSVY=='SMC'],vLOGW[vSVY=='HS'],vLOGW[vSVY=='PALFA'],
-                    vLOGW[vSVY=='GBTIM'],vLOGW[vSVY=='UMT1'],vLOGW[vSVY=='CRAFT'], vLOGW[vSVY=='UMT2']]
+                    vLOGW[vSVY=='GBTIM'],vLOGW[vSVY=='UMT1'],vLOGW[vSVY=='CRAFT']]
     if bolupper:
         vpara=np.array([-3.0, -3.0, 42.0, 1e37, -1, 0.1])
         vparb=np.array([4.47, 1.1, 47.0, 1e42, 2, 1.0])
